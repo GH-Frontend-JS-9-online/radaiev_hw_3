@@ -41,13 +41,31 @@
 	margin-right: 20px;
 }
 
+.header_top_logo_icon > a {
+	text-decoration: none;
+}
+
 .header_top_logo_title h3 {
 	font-family: 'Lato', sans-serif;
 	padding-right: 20px;
 }
 
+.header_top_logo_title h3 > a {
+	text-decoration: none;
+	color: #070000;
+}
+
 .header_top_logo_title span {
 	color: #8d81ac;
+}
+
+.footer_logo_icon a {
+	text-decoration: none;
+}
+
+.foter_logo_title h3 > a {
+	text-decoration: none;
+	color: #070000;
 }
 
 .header_top_nav {
@@ -298,7 +316,7 @@
 
 
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 769px) {
 	.header_mobile_nav {
 		display: none !important;
 	}
@@ -407,20 +425,9 @@
 	margin-top: 40px; 
 }
 
-@media screen and (max-width: 525px) {
-	.header_desc_title h2 {
-		font-size: 42px;
-	}
-
-	.header_desc_text {
-		font-size: 16px;
-	}
-}
 
 @media screen and (max-width: 425px) {
-		.header_desc_title h2 {
-		font-size: 32px;
-	}
+
 
 	.header_desc_text {
 		margin-top: 25px;
@@ -1450,7 +1457,7 @@
 
 .footer_nav {
 	padding:1px 10px;
-	max-width: 150px;
+	width: 150px;
 	margin-bottom: 30px;
 }
 .footer_nav_title {
@@ -1517,7 +1524,13 @@
 	font-size: 13px;
 }
 
-@media screen and (max-width: 521px) {
+@media screen and (max-width: 881px) {
+	.footer_inner {
+		max-width: 650px;
+	}
+}
+
+@media screen and (max-width: 566px) {
 	.footer_nav {
 		min-width:300px;
 	}
@@ -1528,6 +1541,104 @@
 
 	.footer_inner {
 		max-width: 350px
+	}
+}
+
+
+@media screen and (max-width: 1024px) {
+	.header_title > h1 {
+		font-size: 76px;
+	}
+
+	.header_title_slogan {
+		font-size: 28px;
+	}
+
+	.header_desc_title > h2 {
+		font-size: 48px;
+	}
+
+	.header_desc_text {
+		font-size: 18px;
+	}
+
+	.testimonials_title h2 {
+		font-size: 58px;
+	}
+
+	.prices_title h2 {
+		font-size: 58px;
+	}
+
+	.footer_nav {
+		width: 250px !important;
+		margin-left: 80px;
+	}
+
+	.footer_contacts {
+
+	}
+
+}
+
+@media screen and (max-width: 768px) {
+		.header_title > h1 {
+		font-size: 72px;
+	}
+
+	.header_title_slogan {
+		font-size: 26px;
+	}
+
+		.header_desc_title > h2 {
+		font-size: 42px;
+	}
+
+	.header_desc_text {
+		font-size: 16px;
+	}
+
+	.benefits_title h2 {
+		font-size: 42px;
+	}
+
+		.testimonials_title h2 {
+		font-size: 52px;
+	}
+
+		.prices_title h2 {
+		font-size: 52px;
+	}
+
+		.footer_nav {
+		width: 250px !important;
+		margin-left: 0px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+		.header_title > h1 {
+		font-size: 66px;
+	}
+
+	.header_title_slogan {
+		font-size: 22px;
+	}
+
+			.header_desc_title > h2 {
+		font-size: 36px;
+	}
+
+	.benefits_title h2 {
+		font-size: 38px;
+	}
+
+			.testimonials_title h2 {
+		font-size: 46px;
+	}
+
+			.prices_title h2 {
+		font-size: 46px;
 	}
 }
 
